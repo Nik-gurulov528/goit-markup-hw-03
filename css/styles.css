@@ -4,6 +4,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0 0 0 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -12,7 +24,29 @@ ul {
   list-style-type: none;
 }
 
-.logo {
+ul,
+ol {
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  object-fit: contain;
+}
+
+.container {
+  max-width: 1128px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header a {
+  margin: 24px 40px;
+}
+
+.header .logo {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -68,6 +102,7 @@ ul {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .order-service {
@@ -79,6 +114,10 @@ ul {
   cursor: pointer;
   letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
+  height: 56px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
 }
 
 .order-service:hover,
@@ -110,8 +149,21 @@ ul {
   text-transform: capitalize;
 }
 
+.team .section-title,
+.portfolio .section-title {
+  margin-bottom: 72px;
+}
+
 .benefits {
   color: #ffffff;
+}
+
+.benefit-list {
+  max-width: 264px;
+}
+
+.benefit-list h3 {
+  margin-bottom: 8px;
 }
 
 .team {
@@ -119,8 +171,24 @@ ul {
 }
 
 .team-list {
-  text-align: center;
   background-color: #ffffff;
+  max-width: 264px;
+  max-height: 380px;
+  padding-bottom: 32px;
+  border-radius: 0 0 4px 4px;
+}
+
+.portfolio-list {
+  padding-bottom: 32px;
+  border: 1px solid #c7c4bf;
+  max-width: 360px;
+  max-height: 420px;
+}
+
+.team-list .topic,
+.portfolio-list .topic {
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .footer {
@@ -141,6 +209,8 @@ ul {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
+  margin-top: 16px;
 }
 
 .part-logo-footer {
