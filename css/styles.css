@@ -46,8 +46,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .header-container {
@@ -71,12 +70,7 @@ img {
   color: #2e2f42;
 }
 
-.navigation {
-  display: flex;
-  align-items: center;
-}
-
-.nav-list {
+.flexbox-header {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -111,13 +105,6 @@ img {
 .contact .contact-link:hover,
 .contact .contact-link:focus {
   color: #404bbf;
-}
-
-.contact-list {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  padding: 24px 0;
 }
 
 .hero {
