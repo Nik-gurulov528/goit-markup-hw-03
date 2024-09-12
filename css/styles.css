@@ -73,6 +73,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .flexbox-header-link {
@@ -85,6 +86,7 @@ img {
   line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
