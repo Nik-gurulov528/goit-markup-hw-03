@@ -35,9 +35,9 @@ img {
 }
 
 .container {
-  max-width: 1128px;
-  padding-left: 16px;
-  padding-right: 16px;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -46,7 +46,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #c7c4bf;
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .header .logo {
@@ -73,7 +74,6 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .nav-link {
@@ -124,6 +124,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 188px 0;
 }
 
 .page-title {
@@ -146,7 +147,7 @@ img {
   cursor: pointer;
   letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
-  width: 172px;
+  min-width: 169px;
   padding: 16px 32px;
   border-radius: 4px;
   border: none;
@@ -204,12 +205,12 @@ img {
 .benefit {
   display: flex;
   align-items: baseline;
-  margin: 120px auto;
   gap: 24px;
+  padding: 120px 0;
 }
 
 .benefit-list {
-  max-width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .benefit-list h3 {
@@ -218,8 +219,7 @@ img {
 
 .team-container {
   height: 732px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .teammates {
@@ -236,13 +236,21 @@ img {
   background-color: #ffffff;
   max-width: 264px;
   max-height: 380px;
-  padding-bottom: 32px;
   border-radius: 0 0 4px 4px;
   text-align: center;
 }
 
+.photo {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.photo > .topic {
+  margin-bottom: 8px;
+}
+
 .portfolio-container {
-  margin: 120px auto;
+  padding: 120px 0;
 }
 
 .portfolio-items {
@@ -251,24 +259,18 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  width: 1128px;
+  width: 1158px;
 }
 
-.portfolio-list {
-  padding-bottom: 32px;
-  border: 1px solid #c7c4bf;
+.portfolio-photo {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
   max-width: 360px;
   max-height: 420px;
 }
 
-.portfolio-list > .topic,
-.portfolio-list > .text {
-  padding-left: 16px;
-}
-
-.team-list .topic,
-.portfolio-list .topic {
-  margin-top: 32px;
+.portfolio-list > .topic {
   margin-bottom: 8px;
 }
 
@@ -278,7 +280,7 @@ img {
 }
 
 .footer-container {
-  padding-top: 100px;
+  padding: 100px 0;
 }
 
 .logo-foot {
@@ -289,6 +291,8 @@ img {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.03em;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .text-footer {
@@ -296,7 +300,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-top: 16px;
 }
 
 .part-logo-footer {
