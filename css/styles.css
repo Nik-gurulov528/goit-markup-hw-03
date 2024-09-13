@@ -44,8 +44,6 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .header-container {
@@ -73,7 +71,6 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .flexbox-header-link {
@@ -86,7 +83,6 @@ img {
   line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -118,7 +114,6 @@ img {
 }
 
 .hero-container {
-  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -218,10 +213,6 @@ img {
   margin-bottom: 8px;
 }
 
-.team-container {
-  height: 732px;
-}
-
 .teammates {
   display: flex;
   align-items: center;
@@ -235,8 +226,7 @@ img {
 
 .team-list {
   background-color: #ffffff;
-  max-width: 264px;
-  max-height: 380px;
+  width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   text-align: center;
 }
@@ -265,7 +255,6 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  width: 1158px;
 }
 
 .portfolio-photo {
